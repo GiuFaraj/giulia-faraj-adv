@@ -3,7 +3,7 @@ import { useEffect, useRef } from 'react'
 import { lawyer, nav, whatsappUrl } from '../content'
 import { Band } from './Guilloche'
 import FooterMark from './FooterMark'
-
+import CreditoDesenvolvedor from './CreditoDesenvolvedor'
 const year = new Date().getFullYear()
 
 export default function Footer() {
@@ -101,6 +101,7 @@ export default function Footer() {
           </p>
           <p>Fotos: Unsplash (Thay Pellerin, Romain Dancre, Mathias Reding, Nathalia Segato).</p>
         </div>
+        <CreditoDesenvolvedor className="mt-6 text-mist/50" />
       </div>
     </footer>
   )

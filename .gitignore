@@ -1,0 +1,53 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+node_modules
+dist
+dist-ssr
+*.local
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+# Editores
+.vs/
+.vscode/
+.idea/
+# Dependências
+node_modules/
+# Variáveis de ambiente (segredos)
+.env
+.env.*
+!.env.example
+# Configurações locais (pessoais, fora do Git)
+.claude/settings.local.json
+.impeccable/*.local.json
+# Saída do Playwright MCP (snapshots e logs)
+.playwright-mcp/
+# Sistema operacional
+Thumbs.db
+
+# Impeccable: capturas de revisão e temporários
+.impeccable/review/
+.impeccable/tmp/
+.impeccable/direction-payload.json
+
+# Mídias originais do rodapé (vão para o repositório só codificadas em src/assets/media)
+src/assets/photos/aot/
+
+# Impeccable: caches locais
+.impeccable/hook.cache.json
+.impeccable/questions/

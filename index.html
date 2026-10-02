@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <meta name="theme-color" content="#040f21" />
+    <meta name="color-scheme" content="light dark" />
+    <script>
+      try {
+        var t = localStorage.getItem('gf-theme') || (matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light')
+        document.documentElement.dataset.theme = t
+      } catch (e) {}
+    </script>
+
+    <title>Giulia Faraj Advocacia | Direito Civil, Contratos e Consumidor em Vespasiano (MG)</title>
+    <meta
+      name="description"
+      content="Advocacia cível em Vespasiano (MG), região metropolitana de Belo Horizonte, e online para todo o Brasil. Direito Civil, Contratos e Direito do Consumidor para pessoas físicas e empresas."
+    />
+    <meta name="keywords" content="advogada Vespasiano, advogada civil Vespasiano, direito do consumidor Vespasiano, advogada contratos, advogada região metropolitana BH" />
+
+    <meta property="og:type" content="website" />
+    <meta property="og:locale" content="pt_BR" />
+    <meta property="og:title" content="Giulia Faraj Advocacia" />
+    <meta property="og:description" content="Direito Civil, Contratos e Direito do Consumidor em Vespasiano (MG) e online." />
+
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "LegalService",
+        "name": "Giulia Faraj Advocacia",
+        "telephone": "+55-31-99773-6303",
+        "email": "giuliafaraj3@gmail.com",
+        "areaServed": ["Vespasiano", "Brasil"],
+        "address": { "@type": "PostalAddress", "addressLocality": "Vespasiano", "streetAddress": "Centro", "addressRegion": "MG", "addressCountry": "BR" },
+        "knowsAbout": ["Direito Civil", "Contratos", "Direito do Consumidor"],
+        "availableLanguage": ["Português"]
+      }
+    </script>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
+</html>

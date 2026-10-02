@@ -1,0 +1,606 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-10-01T03:43:24.208Z",
+  "title": "Design System: Giulia Faraj Advocacia",
+  "extensions": {
+    "colorMeta": {
+      "abyss": {
+        "role": "neutral",
+        "displayName": "Abismo",
+        "canonical": "oklch(13% 0.030 258)",
+        "tonalRamp": [
+          "oklch(15% 0.03 258)",
+          "oklch(25% 0.03 258)",
+          "oklch(35% 0.03 258)",
+          "oklch(45% 0.03 258)",
+          "oklch(55% 0.03 258)",
+          "oklch(65% 0.03 258)",
+          "oklch(80% 0.03 258)",
+          "oklch(95% 0.03 258)"
+        ]
+      },
+      "ink": {
+        "role": "neutral",
+        "displayName": "Tinta",
+        "canonical": "oklch(17% 0.042 258)",
+        "tonalRamp": [
+          "oklch(15% 0.042 258)",
+          "oklch(25% 0.042 258)",
+          "oklch(35% 0.042 258)",
+          "oklch(45% 0.042 258)",
+          "oklch(55% 0.042 258)",
+          "oklch(65% 0.042 258)",
+          "oklch(80% 0.042 258)",
+          "oklch(95% 0.042 258)"
+        ]
+      },
+      "ink-2": {
+        "role": "neutral",
+        "displayName": "Tinta 2",
+        "canonical": "oklch(22% 0.055 258)",
+        "tonalRamp": [
+          "oklch(15% 0.055 258)",
+          "oklch(25% 0.055 258)",
+          "oklch(35% 0.055 258)",
+          "oklch(45% 0.055 258)",
+          "oklch(55% 0.055 258)",
+          "oklch(65% 0.055 258)",
+          "oklch(80% 0.055 258)",
+          "oklch(95% 0.055 258)"
+        ]
+      },
+      "navy": {
+        "role": "neutral",
+        "displayName": "Marinho",
+        "canonical": "oklch(31% 0.085 258)",
+        "tonalRamp": [
+          "oklch(15% 0.085 258)",
+          "oklch(25% 0.085 258)",
+          "oklch(35% 0.085 258)",
+          "oklch(45% 0.085 258)",
+          "oklch(55% 0.085 258)",
+          "oklch(65% 0.085 258)",
+          "oklch(80% 0.085 258)",
+          "oklch(95% 0.085 258)"
+        ]
+      },
+      "steel": {
+        "role": "neutral",
+        "displayName": "Aço",
+        "canonical": "oklch(52% 0.075 250)",
+        "tonalRamp": [
+          "oklch(15% 0.075 250)",
+          "oklch(25% 0.075 250)",
+          "oklch(35% 0.075 250)",
+          "oklch(45% 0.075 250)",
+          "oklch(55% 0.075 250)",
+          "oklch(65% 0.075 250)",
+          "oklch(80% 0.075 250)",
+          "oklch(95% 0.075 250)"
+        ]
+      },
+      "azure": {
+        "role": "neutral",
+        "displayName": "Azul Celeste",
+        "canonical": "oklch(76% 0.075 243)",
+        "tonalRamp": [
+          "oklch(15% 0.075 243)",
+          "oklch(25% 0.075 243)",
+          "oklch(35% 0.075 243)",
+          "oklch(45% 0.075 243)",
+          "oklch(55% 0.075 243)",
+          "oklch(65% 0.075 243)",
+          "oklch(80% 0.075 243)",
+          "oklch(95% 0.075 243)"
+        ]
+      },
+      "mist": {
+        "role": "neutral",
+        "displayName": "Névoa",
+        "canonical": "oklch(90% 0.022 245)",
+        "tonalRamp": [
+          "oklch(15% 0.022 245)",
+          "oklch(25% 0.022 245)",
+          "oklch(35% 0.022 245)",
+          "oklch(45% 0.022 245)",
+          "oklch(55% 0.022 245)",
+          "oklch(65% 0.022 245)",
+          "oklch(80% 0.022 245)",
+          "oklch(95% 0.022 245)"
+        ]
+      },
+      "paper": {
+        "role": "neutral",
+        "displayName": "Papel",
+        "canonical": "oklch(96.8% 0.008 240)",
+        "tonalRamp": [
+          "oklch(15% 0.008 240)",
+          "oklch(25% 0.008 240)",
+          "oklch(35% 0.008 240)",
+          "oklch(45% 0.008 240)",
+          "oklch(55% 0.008 240)",
+          "oklch(65% 0.008 240)",
+          "oklch(80% 0.008 240)",
+          "oklch(95% 0.008 240)"
+        ]
+      },
+      "paper-2": {
+        "role": "neutral",
+        "displayName": "Papel 2",
+        "canonical": "oklch(93.5% 0.014 240)",
+        "tonalRamp": [
+          "oklch(15% 0.014 240)",
+          "oklch(25% 0.014 240)",
+          "oklch(35% 0.014 240)",
+          "oklch(45% 0.014 240)",
+          "oklch(55% 0.014 240)",
+          "oklch(65% 0.014 240)",
+          "oklch(80% 0.014 240)",
+          "oklch(95% 0.014 240)"
+        ]
+      },
+      "paper-3": {
+        "role": "neutral",
+        "displayName": "Papel 3",
+        "canonical": "oklch(89.5% 0.020 242)",
+        "tonalRamp": [
+          "oklch(15% 0.02 242)",
+          "oklch(25% 0.02 242)",
+          "oklch(35% 0.02 242)",
+          "oklch(45% 0.02 242)",
+          "oklch(55% 0.02 242)",
+          "oklch(65% 0.02 242)",
+          "oklch(80% 0.02 242)",
+          "oklch(95% 0.02 242)"
+        ]
+      },
+      "walnut": {
+        "role": "secondary",
+        "displayName": "Nogueira",
+        "canonical": "oklch(23% 0.038 52)",
+        "tonalRamp": [
+          "oklch(15% 0.038 52)",
+          "oklch(25% 0.038 52)",
+          "oklch(35% 0.038 52)",
+          "oklch(45% 0.038 52)",
+          "oklch(55% 0.038 52)",
+          "oklch(65% 0.038 52)",
+          "oklch(80% 0.038 52)",
+          "oklch(95% 0.038 52)"
+        ]
+      },
+      "walnut-2": {
+        "role": "secondary",
+        "displayName": "Nogueira Média",
+        "canonical": "oklch(29% 0.048 54)",
+        "tonalRamp": [
+          "oklch(15% 0.048 54)",
+          "oklch(25% 0.048 54)",
+          "oklch(35% 0.048 54)",
+          "oklch(45% 0.048 54)",
+          "oklch(55% 0.048 54)",
+          "oklch(65% 0.048 54)",
+          "oklch(80% 0.048 54)",
+          "oklch(95% 0.048 54)"
+        ]
+      },
+      "umber": {
+        "role": "secondary",
+        "displayName": "Úmbria",
+        "canonical": "oklch(47% 0.065 56)",
+        "tonalRamp": [
+          "oklch(15% 0.065 56)",
+          "oklch(25% 0.065 56)",
+          "oklch(35% 0.065 56)",
+          "oklch(45% 0.065 56)",
+          "oklch(55% 0.065 56)",
+          "oklch(65% 0.065 56)",
+          "oklch(80% 0.065 56)",
+          "oklch(95% 0.065 56)"
+        ]
+      },
+      "sand": {
+        "role": "secondary",
+        "displayName": "Areia",
+        "canonical": "oklch(86% 0.035 70)",
+        "tonalRamp": [
+          "oklch(15% 0.035 70)",
+          "oklch(25% 0.035 70)",
+          "oklch(35% 0.035 70)",
+          "oklch(45% 0.035 70)",
+          "oklch(55% 0.035 70)",
+          "oklch(65% 0.035 70)",
+          "oklch(80% 0.035 70)",
+          "oklch(95% 0.035 70)"
+        ]
+      },
+      "duotone": {
+        "role": "secondary",
+        "displayName": "Nogueira Clara de Duotone",
+        "canonical": "oklch(71% 0.058 61)",
+        "tonalRamp": [
+          "oklch(15% 0.058 61)",
+          "oklch(25% 0.058 61)",
+          "oklch(35% 0.058 61)",
+          "oklch(45% 0.058 61)",
+          "oklch(55% 0.058 61)",
+          "oklch(65% 0.058 61)",
+          "oklch(80% 0.058 61)",
+          "oklch(95% 0.058 61)"
+        ]
+      },
+      "cognac": {
+        "role": "primary",
+        "displayName": "Cognac",
+        "canonical": "oklch(75% 0.115 63)",
+        "tonalRamp": [
+          "oklch(15% 0.115 63)",
+          "oklch(25% 0.115 63)",
+          "oklch(35% 0.115 63)",
+          "oklch(45% 0.115 63)",
+          "oklch(55% 0.115 63)",
+          "oklch(65% 0.115 63)",
+          "oklch(80% 0.115 63)",
+          "oklch(95% 0.115 63)"
+        ]
+      },
+      "cognac-hi": {
+        "role": "primary",
+        "displayName": "Cognac Claro",
+        "canonical": "oklch(84% 0.095 72)",
+        "tonalRamp": [
+          "oklch(15% 0.095 72)",
+          "oklch(25% 0.095 72)",
+          "oklch(35% 0.095 72)",
+          "oklch(45% 0.095 72)",
+          "oklch(55% 0.095 72)",
+          "oklch(65% 0.095 72)",
+          "oklch(80% 0.095 72)",
+          "oklch(95% 0.095 72)"
+        ]
+      },
+      "cognac-deep": {
+        "role": "primary",
+        "displayName": "Cognac Profundo",
+        "canonical": "oklch(50% 0.100 55)",
+        "tonalRamp": [
+          "oklch(15% 0.1 55)",
+          "oklch(25% 0.1 55)",
+          "oklch(35% 0.1 55)",
+          "oklch(45% 0.1 55)",
+          "oklch(55% 0.1 55)",
+          "oklch(65% 0.1 55)",
+          "oklch(80% 0.1 55)",
+          "oklch(95% 0.1 55)"
+        ]
+      },
+      "surface-dark": {
+        "role": "neutral",
+        "displayName": "Superfície Escura",
+        "canonical": "oklch(19% 0.045 258)",
+        "tonalRamp": [
+          "oklch(15% 0.045 258)",
+          "oklch(25% 0.045 258)",
+          "oklch(35% 0.045 258)",
+          "oklch(45% 0.045 258)",
+          "oklch(55% 0.045 258)",
+          "oklch(65% 0.045 258)",
+          "oklch(80% 0.045 258)",
+          "oklch(95% 0.045 258)"
+        ]
+      },
+      "surface-2-dark": {
+        "role": "neutral",
+        "displayName": "Superfície Escura 2",
+        "canonical": "oklch(22% 0.05 258)",
+        "tonalRamp": [
+          "oklch(15% 0.05 258)",
+          "oklch(25% 0.05 258)",
+          "oklch(35% 0.05 258)",
+          "oklch(45% 0.05 258)",
+          "oklch(55% 0.05 258)",
+          "oklch(65% 0.05 258)",
+          "oklch(80% 0.05 258)",
+          "oklch(95% 0.05 258)"
+        ]
+      },
+      "surface-3-dark": {
+        "role": "neutral",
+        "displayName": "Superfície Escura 3",
+        "canonical": "oklch(26% 0.055 258)",
+        "tonalRamp": [
+          "oklch(15% 0.055 258)",
+          "oklch(25% 0.055 258)",
+          "oklch(35% 0.055 258)",
+          "oklch(45% 0.055 258)",
+          "oklch(55% 0.055 258)",
+          "oklch(65% 0.055 258)",
+          "oklch(80% 0.055 258)",
+          "oklch(95% 0.055 258)"
+        ]
+      }
+    },
+    "typographyMeta": {
+      "wordmark-outline": {
+        "displayName": "Wordmark vazado",
+        "purpose": "Uma palavra gigante em contorno preenchida pelo scroll; uma por página."
+      },
+      "display": {
+        "displayName": "Display",
+        "purpose": "Título do banner do hero, até duas linhas, a segunda em cognac."
+      },
+      "title": {
+        "displayName": "Title",
+        "purpose": "Título de cada seção."
+      },
+      "headline": {
+        "displayName": "Headline",
+        "purpose": "Título de cartão de área."
+      },
+      "subhead": {
+        "displayName": "Subhead",
+        "purpose": "Títulos de etapa e de subseção."
+      },
+      "lead": {
+        "displayName": "Lead",
+        "purpose": "Subtítulos em tom apagado."
+      },
+      "body": {
+        "displayName": "Body",
+        "purpose": "Parágrafos."
+      },
+      "label": {
+        "displayName": "Label",
+        "purpose": "Navegação, rótulos de campo, chips."
+      },
+      "numeral": {
+        "displayName": "Numeral tabular",
+        "purpose": "Todo número que informa: telefone, OAB, etapas."
+      }
+    },
+    "shadows": [
+      {
+        "name": "lift",
+        "value": "0 30px 60px -30px oklch(13% 0.03 258 / 0.55), 0 8px 18px -10px oklch(13% 0.03 258 / 0.35)",
+        "purpose": "Vidro tinta, pílula tinta, retrato, núcleo do formulário."
+      },
+      {
+        "name": "soft",
+        "value": "0 24px 48px -28px oklch(31% 0.085 258 / 0.35)",
+        "purpose": "Núcleos sobre papel, vidro claro, navegação clara."
+      },
+      {
+        "name": "glow",
+        "value": "0 10px 36px -10px oklch(75% 0.115 63 / 0.7), 0 2px 10px -2px oklch(84% 0.095 72 / 0.45)",
+        "purpose": "Só ação ou conquista: CTA cognac, etapa alcançada, confirmação de envio."
+      },
+      {
+        "name": "inset-hi",
+        "value": "inset 0 1px 0 oklch(100% 0 0 / 0.14)",
+        "purpose": "Fio de luz no topo do vidro tinta."
+      },
+      {
+        "name": "glass-ink",
+        "value": "background: oklch(17% 0.042 258 / 0.42); backdrop-filter: blur(22px) saturate(160%); border: 1px solid oklch(90% 0.022 245 / 0.14)",
+        "purpose": "Vidro escuro sobre fotos e campos tinta."
+      },
+      {
+        "name": "glass-paper",
+        "value": "background: var(--glass-paper) (claro oklch(100% 0 0 / 0.55), escuro oklch(26% 0.055 258 / 0.55)); backdrop-filter: blur(22px) saturate(150%); border: 1px solid var(--glass-paper-line)",
+        "purpose": "Vidro claro sobre papel."
+      },
+      {
+        "name": "glow-border",
+        "value": "conic-gradient(from var(--angle), transparent 0deg, cognac 50deg, cognac-hi 80deg, transparent 140deg), anel mascarado de 1px, giro de 6s linear infinito",
+        "purpose": "Borda cognac giratória; um único lugar (bloco de WhatsApp do Contato)."
+      },
+      {
+        "name": "grain",
+        "value": "SVG fractalNoise fixo, opacity 0.05, z-index 60",
+        "purpose": "Grão de papel sobre toda a página, preso à viewport."
+      }
+    ],
+    "motion": [
+      {
+        "name": "ease-out",
+        "value": "cubic-bezier(0.23, 1, 0.32, 1)",
+        "purpose": "Easing padrão de reveals e estados (expo.out no GSAP)."
+      },
+      {
+        "name": "ease-in-out",
+        "value": "cubic-bezier(0.77, 0, 0.175, 1)",
+        "purpose": "Movimentos simétricos."
+      },
+      {
+        "name": "ease-drawer",
+        "value": "cubic-bezier(0.32, 0.72, 0, 1)",
+        "purpose": "Gavetas e painéis."
+      },
+      {
+        "name": "duration-press",
+        "value": "160ms",
+        "purpose": "Pressionar botões de ícone."
+      },
+      {
+        "name": "duration-ui",
+        "value": "240ms",
+        "purpose": "Hover, foco, troca de tom da navegação."
+      },
+      {
+        "name": "duration-reveal",
+        "value": "700ms",
+        "purpose": "Entrada das linhas do banner, etapas, menu."
+      },
+      {
+        "name": "duration-slide",
+        "value": "900ms",
+        "purpose": "Cruzamento das fotos do hero."
+      },
+      {
+        "name": "duration-draw",
+        "value": "2200ms",
+        "purpose": "Desenho das rosetas, 70ms de atraso por linha."
+      },
+      {
+        "name": "hero-interval",
+        "value": "7000ms",
+        "purpose": "Troca automática de banner dirigida pela barra de progresso; pausa fora da tela, no hover e no foco."
+      },
+      {
+        "name": "smooth-scroll",
+        "value": "Lenis lerp 0.1 + GSAP ScrollTrigger",
+        "purpose": "Scroll com inércia, parallax em camadas (foto 0.2, ornamento 0.6, texto 1.0), pin das áreas em desktop. Desligado em reduced-motion."
+      }
+    ],
+    "breakpoints": [
+      {
+        "name": "sm",
+        "value": "640px"
+      },
+      {
+        "name": "md",
+        "value": "768px"
+      },
+      {
+        "name": "lg",
+        "value": "1024px"
+      }
+    ]
+  },
+  "components": [
+    {
+      "name": "Pílula Cognac (CTA WhatsApp)",
+      "kind": "button",
+      "refersTo": "pill-cognac",
+      "description": "A única luz da página: o CTA de WhatsApp, com brilho cognac.",
+      "html": "<a href=\"#\" class=\"ds-pill ds-pill-cognac\"><span>Falar no WhatsApp</span><span class=\"ds-pill-icon\"><svg width=\"18\" height=\"18\" viewBox=\"0 0 256 256\" fill=\"currentColor\" aria-hidden=\"true\"><path d=\"M200 64v104a8 8 0 0 1-16 0V83.31L69.66 197.66a8 8 0 0 1-11.32-11.32L172.69 72H88a8 8 0 0 1 0-16h104a8 8 0 0 1 8 8Z\"/></svg></span></a>",
+      "css": ".ds-pill { font-family: var(--font-sans, 'Schibsted Grotesk Variable', ui-sans-serif, system-ui, sans-serif); display: inline-flex; align-items: center; gap: 12px; height: 56px; padding: 0 8px 0 24px; border: 0; border-radius: 999px; font-size: 0.95rem; font-weight: 500; white-space: nowrap; text-decoration: none; cursor: pointer; transition: background-color 240ms cubic-bezier(0.23,1,0.32,1), transform 240ms cubic-bezier(0.23,1,0.32,1), box-shadow 240ms cubic-bezier(0.23,1,0.32,1); } .ds-pill:active { transform: scale(0.97); } .ds-pill:focus-visible { outline: 2px solid var(--color-cognac, oklch(75% 0.115 63)); outline-offset: 3px; } .ds-pill-icon { display: flex; align-items: center; justify-content: center; width: 40px; height: 40px; border-radius: 50%; transition: transform 240ms cubic-bezier(0.23,1,0.32,1); } .ds-pill:hover .ds-pill-icon { transform: translate(2px, -1px); } .ds-pill-cognac { background: var(--color-cognac, oklch(75% 0.115 63)); color: var(--color-ink, oklch(17% 0.042 258)); box-shadow: 0 10px 36px -10px oklch(75% 0.115 63 / 0.7), 0 2px 10px -2px oklch(84% 0.095 72 / 0.45); } .ds-pill-cognac .ds-pill-icon { background: color-mix(in oklab, oklch(17% 0.042 258) 12%, transparent); } .ds-pill-cognac:hover { background: var(--color-cognac-hi, oklch(84% 0.095 72)); }"
+    },
+    {
+      "name": "Pílula Tinta",
+      "kind": "button",
+      "refersTo": "pill-ink",
+      "description": "Ação sobre papel: envio do formulário e CTA dentro de cartões claros.",
+      "html": "<a href=\"#\" class=\"ds-pill ds-pill-ink\"><span>Enviar mensagem</span><span class=\"ds-pill-icon\"><svg width=\"18\" height=\"18\" viewBox=\"0 0 256 256\" fill=\"currentColor\" aria-hidden=\"true\"><path d=\"M200 64v104a8 8 0 0 1-16 0V83.31L69.66 197.66a8 8 0 0 1-11.32-11.32L172.69 72H88a8 8 0 0 1 0-16h104a8 8 0 0 1 8 8Z\"/></svg></span></a>",
+      "css": ".ds-pill { font-family: var(--font-sans, 'Schibsted Grotesk Variable', ui-sans-serif, system-ui, sans-serif); display: inline-flex; align-items: center; gap: 12px; height: 56px; padding: 0 8px 0 24px; border: 0; border-radius: 999px; font-size: 0.95rem; font-weight: 500; white-space: nowrap; text-decoration: none; cursor: pointer; transition: background-color 240ms cubic-bezier(0.23,1,0.32,1), transform 240ms cubic-bezier(0.23,1,0.32,1), box-shadow 240ms cubic-bezier(0.23,1,0.32,1); } .ds-pill:active { transform: scale(0.97); } .ds-pill:focus-visible { outline: 2px solid var(--color-cognac, oklch(75% 0.115 63)); outline-offset: 3px; } .ds-pill-icon { display: flex; align-items: center; justify-content: center; width: 40px; height: 40px; border-radius: 50%; transition: transform 240ms cubic-bezier(0.23,1,0.32,1); } .ds-pill:hover .ds-pill-icon { transform: translate(2px, -1px); } .ds-pill-ink { background: var(--color-ink, oklch(17% 0.042 258)); color: var(--color-paper, oklch(96.8% 0.008 240)); box-shadow: 0 30px 60px -30px oklch(13% 0.03 258 / 0.55), 0 8px 18px -10px oklch(13% 0.03 258 / 0.35); } .ds-pill-ink .ds-pill-icon { background: color-mix(in oklab, oklch(96.8% 0.008 240) 14%, transparent); } .ds-pill-ink:hover { background: var(--color-navy, oklch(31% 0.085 258)); }"
+    },
+    {
+      "name": "Pílula de Vidro",
+      "kind": "button",
+      "refersTo": "pill-glass",
+      "description": "Ação secundária sobre foto ou campo tinta.",
+      "html": "<div style=\"background: oklch(31% 0.085 258); padding: 24px; border-radius: 2rem;\"><a href=\"#\" class=\"ds-pill ds-pill-glass\"><span>Ver a área</span><span class=\"ds-pill-icon\"><svg width=\"18\" height=\"18\" viewBox=\"0 0 256 256\" fill=\"currentColor\" aria-hidden=\"true\"><path d=\"M200 64v104a8 8 0 0 1-16 0V83.31L69.66 197.66a8 8 0 0 1-11.32-11.32L172.69 72H88a8 8 0 0 1 0-16h104a8 8 0 0 1 8 8Z\"/></svg></span></a></div>",
+      "css": ".ds-pill { font-family: var(--font-sans, 'Schibsted Grotesk Variable', ui-sans-serif, system-ui, sans-serif); display: inline-flex; align-items: center; gap: 12px; height: 56px; padding: 0 8px 0 24px; border: 0; border-radius: 999px; font-size: 0.95rem; font-weight: 500; white-space: nowrap; text-decoration: none; cursor: pointer; transition: background-color 240ms cubic-bezier(0.23,1,0.32,1), transform 240ms cubic-bezier(0.23,1,0.32,1), box-shadow 240ms cubic-bezier(0.23,1,0.32,1); } .ds-pill:active { transform: scale(0.97); } .ds-pill:focus-visible { outline: 2px solid var(--color-cognac, oklch(75% 0.115 63)); outline-offset: 3px; } .ds-pill-icon { display: flex; align-items: center; justify-content: center; width: 40px; height: 40px; border-radius: 50%; transition: transform 240ms cubic-bezier(0.23,1,0.32,1); } .ds-pill:hover .ds-pill-icon { transform: translate(2px, -1px); } .ds-pill-glass { background: oklch(17% 0.042 258 / 0.42); backdrop-filter: blur(22px) saturate(160%); border: 1px solid oklch(90% 0.022 245 / 0.14); box-shadow: inset 0 1px 0 oklch(100% 0 0 / 0.14), 0 30px 60px -30px oklch(13% 0.03 258 / 0.55); color: oklch(96.8% 0.008 240); } .ds-pill-glass .ds-pill-icon { background: color-mix(in oklab, oklch(96.8% 0.008 240) 12%, transparent); } .ds-pill-glass:hover { background: oklch(17% 0.042 258 / 0.6); }"
+    },
+    {
+      "name": "Campo de formulário",
+      "kind": "input",
+      "refersTo": "field",
+      "description": "Campo com fio de linha e foco em halo cognac; erro em cognac profundo.",
+      "html": "<label class=\"ds-label\">E-mail<input class=\"ds-field\" type=\"email\" placeholder=\"nome@exemplo.com\"></label>",
+      "css": ".ds-label { font-family: var(--font-sans, 'Schibsted Grotesk Variable', ui-sans-serif, system-ui, sans-serif); display: block; font-size: 0.875rem; font-weight: 500; color: oklch(17% 0.042 258); } .ds-field { font-family: var(--font-sans, 'Schibsted Grotesk Variable', ui-sans-serif, system-ui, sans-serif); display: block; width: 100%; margin-top: 8px; height: 48px; padding: 0 16px; border: 1px solid oklch(31% 0.085 258 / 0.14); border-radius: 0.875rem; background: oklch(96.8% 0.008 240 / 0.7); color: oklch(17% 0.042 258); font-size: 0.98rem; outline: none; caret-color: oklch(50% 0.1 55); transition: border-color 240ms, box-shadow 240ms; } .ds-field::placeholder { color: oklch(52% 0.075 250 / 0.7); } .ds-field:focus { border-color: oklch(50% 0.1 55); box-shadow: 0 0 0 4px oklch(75% 0.115 63 / 0.2); } .ds-field[aria-invalid=true] { border-color: oklch(50% 0.1 55); }"
+    },
+    {
+      "name": "Chip de tópico",
+      "kind": "chip",
+      "refersTo": "chip-topic",
+      "description": "Tópicos informativos de cada área; fio de linha, sem preenchimento.",
+      "html": "<ul class=\"ds-chips\"><li class=\"ds-chip\">Contratos de locação</li><li class=\"ds-chip\">Revisão contratual</li></ul>",
+      "css": ".ds-chips { display: flex; flex-wrap: wrap; gap: 8px; list-style: none; margin: 0; padding: 0; } .ds-chip { font-family: var(--font-sans, 'Schibsted Grotesk Variable', ui-sans-serif, system-ui, sans-serif); border: 1px solid oklch(31% 0.085 258 / 0.14); border-radius: 999px; padding: 6px 14px; font-size: 0.875rem; color: oklch(52% 0.075 250); }"
+    },
+    {
+      "name": "Navegação flutuante",
+      "kind": "nav",
+      "refersTo": "nav-pill",
+      "description": "Pílula de vidro tinta fixa no topo; vira papel a 92% sobre seções claras.",
+      "html": "<div style=\"background: oklch(17% 0.042 258); padding: 16px;\"><nav class=\"ds-nav\"><span class=\"ds-nav-brand\">Giulia Faraj<small>Advocacia</small></span><span class=\"ds-nav-links\"><a href=\"#\">Áreas</a><a href=\"#\">Sobre</a><a href=\"#\">Contato</a></span><a href=\"#\" class=\"ds-nav-cta\">Agendar reunião</a></nav></div>",
+      "css": ".ds-nav { font-family: var(--font-sans, 'Schibsted Grotesk Variable', ui-sans-serif, system-ui, sans-serif); display: flex; align-items: center; justify-content: space-between; gap: 16px; height: 64px; padding: 0 8px 0 24px; border-radius: 999px; background: oklch(17% 0.042 258 / 0.42); backdrop-filter: blur(22px) saturate(160%); border: 1px solid oklch(90% 0.022 245 / 0.14); box-shadow: inset 0 1px 0 oklch(100% 0 0 / 0.14), 0 30px 60px -30px oklch(13% 0.03 258 / 0.55); color: oklch(96.8% 0.008 240); } .ds-nav-brand { font-size: 1.05rem; font-weight: 600; letter-spacing: -0.01em; line-height: 1; } .ds-nav-brand small { display: block; margin-top: 4px; font-size: 0.75rem; font-weight: 400; color: oklch(90% 0.022 245 / 0.6); } .ds-nav-links { display: flex; gap: 32px; } .ds-nav-links a { font-size: 0.875rem; font-weight: 500; color: oklch(90% 0.022 245 / 0.75); text-decoration: none; transition: color 240ms; } .ds-nav-links a:hover { color: oklch(96.8% 0.008 240); } .ds-nav-cta { height: 44px; display: inline-flex; align-items: center; padding: 0 20px; border-radius: 999px; background: oklch(96.8% 0.008 240); color: oklch(17% 0.042 258); font-size: 0.875rem; font-weight: 500; text-decoration: none; transition: background-color 240ms; } .ds-nav-cta:hover { background: oklch(90% 0.022 245); } .ds-nav a:focus-visible { outline: 2px solid oklch(75% 0.115 63); outline-offset: 3px; }"
+    },
+    {
+      "name": "Cartão em dupla moldura",
+      "kind": "card",
+      "refersTo": "frame-core",
+      "description": "Casca translúcida de 6px com raio 2rem e núcleo sólido concêntrico de 1.625rem.",
+      "html": "<div class=\"ds-shell\"><div class=\"ds-core\"><h3>Direito Civil</h3><p>Atendimento para pessoas e empresas, com a mesma atenção a detalhes em cada tipo de caso.</p></div></div>",
+      "css": ".ds-shell { padding: 6px; border-radius: 2rem; background: oklch(89.5% 0.02 242 / 0.6); box-shadow: 0 0 0 1px oklch(31% 0.085 258 / 0.14); } .ds-core { font-family: var(--font-sans, 'Schibsted Grotesk Variable', ui-sans-serif, system-ui, sans-serif); padding: 36px; border-radius: 1.625rem; background: oklch(96.8% 0.008 240); box-shadow: 0 24px 48px -28px oklch(31% 0.085 258 / 0.35); color: oklch(17% 0.042 258); } .ds-core h3 { margin: 0; font-size: 1.875rem; font-weight: 500; letter-spacing: -0.025em; } .ds-core p { margin: 16px 0 0; max-width: 46ch; line-height: 1.625; color: oklch(52% 0.075 250); }"
+    },
+    {
+      "name": "Marcador de etapa",
+      "kind": "custom",
+      "refersTo": "step-marker-reached",
+      "description": "Círculo numerado no campo nogueira que acende em cognac quando o scroll o alcança.",
+      "html": "<div class=\"ds-steps\"><span class=\"ds-step ds-step-on\">1</span><span class=\"ds-step ds-step-on\">2</span><span class=\"ds-step\">3</span><span class=\"ds-step\">4</span></div>",
+      "css": ".ds-steps { font-family: var(--font-sans, 'Schibsted Grotesk Variable', ui-sans-serif, system-ui, sans-serif); display: flex; gap: 24px; padding: 32px; background: oklch(23% 0.038 52); border-radius: 2rem; } .ds-step { display: grid; place-items: center; width: 44px; height: 44px; border-radius: 50%; border: 1px solid oklch(86% 0.035 70 / 0.25); background: oklch(23% 0.038 52); color: oklch(86% 0.035 70 / 0.7); font-size: 0.875rem; font-weight: 600; font-variant-numeric: tabular-nums lining-nums; transition: background-color 700ms cubic-bezier(0.23,1,0.32,1), border-color 700ms, color 700ms, box-shadow 700ms; } .ds-step-on { border-color: oklch(75% 0.115 63); background: oklch(75% 0.115 63); color: oklch(17% 0.042 258); box-shadow: 0 10px 36px -10px oklch(75% 0.115 63 / 0.7), 0 2px 10px -2px oklch(84% 0.095 72 / 0.45); }"
+    }
+  ],
+  "narrative": {
+    "northStar": "O Papel de Segurança",
+    "overview": "As linhas de guilhoché que autenticam diplomas, carteiras da OAB e passaportes viraram a luz do sistema: confiança desenhada em linha fina. O campo é noturno, azul-tinta; as seções claras são papel de segurança azul-pálido, nunca creme; a nogueira é o segundo campo, quente e escuro; o cognac é a única luz. Rosetas e faixas trançadas em linha de 1px se desenham na tela e brilham de leve, como a impressão de um documento que só um original carrega.\n\nA densidade é baixa e a escala é forte. Hierarquia vem do tamanho do tipo, não de cor nem de rótulos: títulos grandes em Schibsted Grotesk com tracking negativo, texto de apoio em tom apagado, numerais tabulares onde há número. Superfícies são vidro fosco em dupla moldura (casca translúcida, núcleo sólido ou vidro), cantos generosos, botões pílula com ícone aninhado em seu próprio círculo. Fotografia só entra em duotone tinta/nogueira, nunca colorida: foto em escala de cinza multiplicada sobre a nogueira clara `duotone`, sombras levantadas por uma camada tinta em lighten.\n\nO movimento é uma gramática, não enfeite: ease-out longo (cubic-bezier(0.23, 1, 0.32, 1)), revelações de 700ms, UI de 160 a 240ms, linhas que se desenham por stroke, parallax em camadas guiado pelo scroll (GSAP ScrollTrigger + Lenis). Tudo se reduz a mudanças de opacidade e cor em `prefers-reduced-motion`. O sistema recusa o padrão \"escritório de advocacia\": martelo, creme, serifa dourada.",
+    "keyCharacteristics": [
+      "Campo azul-tinta com seções em papel de segurança azul-pálido e um campo nogueira.",
+      "Cognac como única luz: ação, conquista e ornamento de guilhoché.",
+      "Guilhoché (rosetas e faixas) em linha fina de 1px, que se desenha.",
+      "Vidro fosco em dupla moldura; pílulas com ícone aninhado.",
+      "Uma família tipográfica, escala forte, numerais tabulares.",
+      "Fotos sempre em duotone tinta/nogueira.",
+      "Tema claro e escuro: as superfícies \"papel\" mudam; tinta e nogueira são fixas."
+    ],
+    "rules": [
+      {
+        "name": "The One Light Rule",
+        "body": "Cognac é a única cor quente luminosa do sistema. Nenhum segundo acento (verde, vermelho, dourado) entra; erros também falam em cognac profundo.",
+        "section": "colors"
+      },
+      {
+        "name": "The Security Paper Rule",
+        "body": "Seções claras são papel azul-pálido (`paper`, `paper-2`, `paper-3`). Creme e bege nunca são superfície; a areia existe só como texto sobre nogueira.",
+        "section": "colors"
+      },
+      {
+        "name": "The Fixed Field Rule",
+        "body": "Tinta e nogueira não mudam com o tema. Só as superfícies semânticas (`surface`, `fg`, `fg-muted`, `fg-accent`, `line`) trocam entre claro e escuro.",
+        "section": "colors"
+      },
+      {
+        "name": "The Scale Not Labels Rule",
+        "body": "Hierarquia é feita por tamanho e peso. Seções abrem direto no título; não há sobretítulo, kicker ou rótulo em caixa alta acima dele.",
+        "section": "typography"
+      },
+      {
+        "name": "The Tabular Numeral Rule",
+        "body": "Todo número que informa (telefone, OAB, etapas) usa numerais tabulares e alinhados.",
+        "section": "typography"
+      },
+      {
+        "name": "The Glow Means Act Rule",
+        "body": "O brilho cognac marca só ação ou conquista: o CTA, a etapa alcançada, a confirmação. A borda cognac giratória existe em um único lugar (o bloco de WhatsApp do Contato).",
+        "section": "elevation"
+      },
+      {
+        "name": "The Line Glow Rule",
+        "body": "Linhas de guilhoché sobre campo escuro ganham um halo cognac de 4 a 10px (drop-shadow); sobre papel ficam secas, em `navy / 0.16`.",
+        "section": "elevation"
+      }
+    ],
+    "dos": [
+      "**Do** reservar o fundo cognac e a sombra glow para o CTA de WhatsApp e para estados de conquista (etapa alcançada, envio confirmado).",
+      "**Do** usar cognac profundo para texto e traço de destaque sobre papel, e cognac pleno sobre tinta e nogueira.",
+      "**Do** tratar toda foto em duotone: foto em escala de cinza com mix-blend-multiply sobre `duotone`, depois uma camada `ink-2` (nos cartões de área, `navy`) com mix-blend-lighten.",
+      "**Do** compor cartões em dupla moldura com raios concêntricos (2rem por fora, 1.625rem por dentro, 6px de recuo).",
+      "**Do** desenhar guilhoché em traço de 1px ou menos, sem escala de traço, e animá-lo por stroke-dashoffset.",
+      "**Do** usar numerais tabulares em todo número que informa.",
+      "**Do** declarar o tom de cada seção (claro ou escuro) para que a navegação flutuante acompanhe.",
+      "**Do** desligar parallax, scrub e desenho em `prefers-reduced-motion`, mantendo o estado final visível."
+    ],
+    "donts": [
+      "**Don't** usar creme, bege ou marfim como superfície de seção; o papel é azul-pálido.",
+      "**Don't** usar serifa, dourado metálico ou imagem de martelo e balança.",
+      "**Don't** introduzir um segundo acento, nem vermelho para erro.",
+      "**Don't** colocar sobretítulo, kicker ou rótulo em caixa alta acima dos títulos.",
+      "**Don't** usar foto colorida sem duotone.",
+      "**Don't** usar sombra preta dura ou deslocada; sombras são longas, difusas e tingidas de tinta.",
+      "**Don't** repetir a borda cognac giratória fora do bloco de WhatsApp do Contato.",
+      "**Don't** usar cursor customizado nem partículas."
+    ]
+  }
+}

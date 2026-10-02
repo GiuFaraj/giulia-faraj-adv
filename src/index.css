@@ -1,0 +1,242 @@
+@import "tailwindcss";
+@import "./styles/palette.css";
+
+@custom-variant dark (&:where([data-theme="dark"], [data-theme="dark"] *));
+
+/*
+ * Tokens de sistema. Cores vêm de palette.css (gerado com culori).
+ * Superfícies "papel" mudam com o tema; campos tinta e nogueira são fixos.
+ */
+@theme {
+  --font-sans: "Schibsted Grotesk Variable", ui-sans-serif, system-ui, sans-serif;
+
+  /* Base das fotos em duotone: tom de nogueira clara que vira as luzes da foto */
+  --color-duotone: oklch(71% 0.058 61);
+
+  --ease-out: cubic-bezier(0.23, 1, 0.32, 1);
+  --ease-in-out: cubic-bezier(0.77, 0, 0.175, 1);
+  --ease-drawer: cubic-bezier(0.32, 0.72, 0, 1);
+
+  --duration-press: 160ms;
+  --duration-ui: 240ms;
+  --duration-reveal: 700ms;
+  --duration-slide: 900ms;
+  --duration-draw: 2200ms;
+
+  --radius-pill: 999px;
+  --radius-shell: 2rem;
+  --radius-core: calc(2rem - 0.375rem);
+  --radius-field: 0.875rem;
+
+  --shadow-lift: 0 30px 60px -30px oklch(13% 0.03 258 / 0.55), 0 8px 18px -10px oklch(13% 0.03 258 / 0.35);
+  --shadow-soft: 0 24px 48px -28px oklch(31% 0.085 258 / 0.35);
+  --shadow-glow: 0 10px 36px -10px oklch(75% 0.115 63 / 0.7), 0 2px 10px -2px oklch(84% 0.095 72 / 0.45);
+  --shadow-inset-hi: inset 0 1px 0 oklch(100% 0 0 / 0.14);
+
+  --container-page: 84rem;
+
+  --text-display: clamp(2.6rem, 5.4vw, 5.25rem);
+  --text-display--line-height: 1.02;
+  --text-display--letter-spacing: -0.035em;
+  --text-title: clamp(2.1rem, 4vw, 3.75rem);
+  --text-title--line-height: 1.05;
+  --text-title--letter-spacing: -0.03em;
+  --text-lead: clamp(1.05rem, 1.3vw, 1.25rem);
+  --text-lead--line-height: 1.6;
+}
+
+@theme inline {
+  --color-surface: var(--surface);
+  --color-surface-2: var(--surface-2);
+  --color-surface-3: var(--surface-3);
+  --color-fg: var(--fg);
+  --color-fg-muted: var(--fg-muted);
+  --color-fg-accent: var(--fg-accent);
+  --color-line: var(--line);
+}
+
+:root {
+  color-scheme: light;
+  --surface: var(--color-paper);
+  --surface-2: var(--color-paper-2);
+  --surface-3: var(--color-paper-3);
+  --fg: var(--color-ink);
+  --fg-muted: var(--color-steel);
+  --fg-accent: var(--color-cognac-deep);
+  --line: oklch(31% 0.085 258 / 0.14);
+  --glass-paper: oklch(100% 0 0 / 0.55);
+  --glass-paper-line: oklch(31% 0.085 258 / 0.1);
+  --guilloche-paper: oklch(31% 0.085 258 / 0.16);
+}
+
+[data-theme="dark"] {
+  color-scheme: dark;
+  --surface: oklch(19% 0.045 258);
+  --surface-2: oklch(22% 0.05 258);
+  --surface-3: oklch(26% 0.055 258);
+  --fg: var(--color-paper);
+  --fg-muted: var(--color-azure);
+  --fg-accent: var(--color-cognac);
+  --line: oklch(90% 0.022 245 / 0.12);
+  --glass-paper: oklch(26% 0.055 258 / 0.55);
+  --glass-paper-line: oklch(90% 0.022 245 / 0.1);
+  --guilloche-paper: oklch(76% 0.075 243 / 0.16);
+}
+
+@layer base {
+  html {
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+    scrollbar-color: var(--color-steel) var(--color-ink);
+  }
+
+  body {
+    @apply bg-ink font-sans text-mist;
+    font-feature-settings: "ss01", "cv11";
+  }
+
+  h1,
+  h2,
+  h3 {
+    text-wrap: balance;
+  }
+
+  p {
+    text-wrap: pretty;
+  }
+
+  ::selection {
+    background: var(--color-cognac);
+    color: var(--color-ink);
+  }
+
+  :focus-visible {
+    outline: 2px solid var(--color-cognac);
+    outline-offset: 3px;
+    border-radius: var(--radius-field);
+  }
+
+  input,
+  textarea,
+  select {
+    caret-color: var(--color-cognac-deep);
+  }
+
+  [data-theme="dark"] :is(input, textarea, select) {
+    caret-color: var(--color-cognac);
+  }
+
+  /* Grain fixo, nunca preso a contêiner que rola */
+  body::after {
+    content: "";
+    position: fixed;
+    inset: 0;
+    z-index: 60;
+    pointer-events: none;
+    opacity: 0.05;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='160' height='160'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='2' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
+  }
+
+  html.lenis,
+  html.lenis body {
+    height: auto;
+  }
+
+  .lenis.lenis-smooth {
+    scroll-behavior: auto !important;
+  }
+}
+
+@utility tabular {
+  font-variant-numeric: tabular-nums lining-nums;
+}
+
+/* Vidro escuro: sobre fotos e campos tinta */
+@utility glass-ink {
+  background: oklch(17% 0.042 258 / 0.42);
+  backdrop-filter: blur(22px) saturate(160%);
+  border: 1px solid oklch(90% 0.022 245 / 0.14);
+  box-shadow: var(--shadow-inset-hi), var(--shadow-lift);
+}
+
+/* Vidro claro: sobre papel ou como cartão claro sobre o escuro */
+@utility glass-paper {
+  background: var(--glass-paper);
+  backdrop-filter: blur(22px) saturate(150%);
+  border: 1px solid var(--glass-paper-line);
+  box-shadow: inset 0 1px 0 color-mix(in oklab, var(--color-paper) 50%, transparent), var(--shadow-soft);
+}
+
+/* Linha de guilhoché que se desenha (pathLength="1") */
+@utility guilloche-draw {
+  stroke-dasharray: 1;
+  stroke-dashoffset: 1;
+  animation: draw var(--duration-draw) var(--ease-out) forwards;
+  animation-delay: calc(var(--i, 0) * 70ms);
+}
+
+@keyframes draw {
+  to {
+    stroke-dashoffset: 0;
+  }
+}
+
+/* Barra de progresso do carrossel: dirige a troca de banner via animationend */
+@keyframes progress {
+  from {
+    transform: scaleX(0);
+  }
+  to {
+    transform: scaleX(1);
+  }
+}
+
+/* Borda cognac girando: a assinatura de brilho, usada em um único lugar */
+@property --angle {
+  syntax: "<angle>";
+  initial-value: 0deg;
+  inherits: false;
+}
+
+@utility glow-border {
+  position: relative;
+  isolation: isolate;
+
+  &::before {
+    content: "";
+    position: absolute;
+    inset: -1px;
+    z-index: -1;
+    border-radius: inherit;
+    padding: 1px;
+    background: conic-gradient(
+      from var(--angle),
+      transparent 0deg,
+      var(--color-cognac) 50deg,
+      var(--color-cognac-hi) 80deg,
+      transparent 140deg,
+      transparent 360deg
+    );
+    -webkit-mask: linear-gradient(var(--color-ink) 0 0) content-box, linear-gradient(var(--color-ink) 0 0);
+    -webkit-mask-composite: xor;
+    mask-composite: exclude;
+    animation: spin-angle 6s linear infinite;
+  }
+}
+
+@keyframes spin-angle {
+  to {
+    --angle: 360deg;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 1ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 120ms !important;
+    transition-property: opacity, color, background-color, border-color !important;
+  }
+}

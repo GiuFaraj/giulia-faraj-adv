@@ -1,0 +1,20 @@
+/* Gerado por scripts/palette.mjs (culori). Não editar à mão: ajuste as sementes e rode npm run palette. */
+@theme {
+  --color-abyss: oklch(13.0% 0.030 258.0); /* #020713 */
+  --color-ink: oklch(17.0% 0.042 258.0); /* #040f21 */
+  --color-ink-2: oklch(22.0% 0.055 258.0); /* #091a34 */
+  --color-navy: oklch(31.0% 0.085 258.0); /* #122f5a */
+  --color-steel: oklch(52.0% 0.075 250.0); /* #466c93 */
+  --color-azure: oklch(76.0% 0.075 243.0); /* #87b7dd */
+  --color-mist: oklch(90.0% 0.022 245.0); /* #d2e0ec */
+  --color-paper: oklch(96.8% 0.008 240.0); /* #f0f5f9 */
+  --color-paper-2: oklch(93.5% 0.014 240.0); /* #e2ebf2 */
+  --color-paper-3: oklch(89.5% 0.020 242.0); /* #d1dee9 */
+  --color-walnut: oklch(23.0% 0.038 52.0); /* #2b170b */
+  --color-walnut-2: oklch(29.0% 0.048 54.0); /* #3e2413 */
+  --color-umber: oklch(47.0% 0.065 56.0); /* #775136 */
+  --color-sand: oklch(86.0% 0.035 70.0); /* #e0ceb9 */
+  --color-cognac: oklch(75.0% 0.115 63.0); /* #e19d5d */
+  --color-cognac-hi: oklch(84.0% 0.095 72.0); /* #f1c184 */
+  --color-cognac-deep: oklch(50.0% 0.100 55.0); /* #8e5224 */
+}
